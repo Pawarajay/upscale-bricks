@@ -1,7 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
 import { MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/New Logo (1) (1).png";
+// import logo from "@/assets/New Logo (1) (1).png";
+// import logo from "@/assets/New-logo.png";
+// import logo from "@/assets/New-logo-transparent.png";
+import logo from "@/assets/New-logo-transparent-light.png";
 
 const Footer = () => {
   const navigate = useNavigate();

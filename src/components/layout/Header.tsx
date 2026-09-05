@@ -5,7 +5,8 @@ import { Menu, X, ChevronDown, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 // import logo from "@/assets/New Logo (1) (1).png";
-import logo from "@/assets/New-logo.png";
+// import logo from "@/assets/New-logo.png";
+import logo from "@/assets/New-logo-transparent.png";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -41,7 +42,7 @@ const Header = () => {
       <nav className="container-luxury">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 shrink-0 py-2">
+          <Link to="/" className="flex items-center gap-3 shrink-0">
             <img
               src={logo}
               alt="Upscale Bricks"

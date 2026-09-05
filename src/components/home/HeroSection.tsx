@@ -87,7 +87,7 @@ const HeroSection = () => {
               <span className="text-xs sm:text-sm text-white/80">Happy Families</span>
             </div>
             <div>
-              <span className="block font-heading text-2xl sm:text-3xl font-semibold text-white">50+</span>
+              <span className="block font-heading text-2xl sm:text-3xl font-semibold text-white">35+</span>
               <span className="text-xs sm:text-sm text-white/80">Premium Projects</span>
             </div>
             <div>

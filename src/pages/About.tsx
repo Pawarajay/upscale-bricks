@@ -300,49 +300,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Leadership */}
-      <section className="section-padding bg-secondary">
-        <div className="container-luxury">
-          <div className="max-w-3xl mx-auto">
-
-            {/* Co-Founder */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-gold/10 text-gold rounded-full text-sm font-medium mb-6">
-                Leadership
-              </span>
-
-              <h2 className="heading-section text-foreground mb-4">
-                Virendra Singh Kshatriya
-              </h2>
-              <p className="text-gold font-medium mb-6">
-                Co-founder & Business Development Strategist
-              </p>
-
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
-                  With an MBA from NMIMS and over five years of experience in the industry, I've dedicated my journey to shaping a company that stands for trust, credibility, and excellence. As co-founder, my role in business development has been about more than growth — it's about building meaningful relationships, understanding client aspirations, and ensuring that every project we deliver reflects the lifestyle our clients deserve.
-                </p>
-
-                <p>
-                  From forging partnerships with leading builders to curating premium projects across Bangalore, my vision has always been to elevate the real estate experience. Together with my team, I strive to make our company not just a service provider, but a trusted partner in every client's journey toward owning their dream home.
-                </p>
-              </div>
-
-              <blockquote className="mt-6 border-l-4 border-gold pl-6 italic text-foreground">
-                "Real estate is more than just property — it's about creating spaces where people build their lives, dreams, and legacies."
-                <br />— Virendra Singh Kshatriya
-              </blockquote>
-            </motion.div>
-
-          </div>
-        </div>
-      </section>
-
       {/* Stats */}
       <section className="section-padding">
         <div className="container-luxury">

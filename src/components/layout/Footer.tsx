@@ -1,10 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// import logo from "@/assets/New Logo (1) (1).png";
-// import logo from "@/assets/New-logo.png";
-// import logo from "@/assets/New-logo-transparent.png";
-import logo from "@/assets/New-logo-transparent-light.png";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -67,19 +63,14 @@ const Footer = () => {
                 onClick={() => handleNavClick("/")}
                 className="flex items-center gap-3 mb-4"
               >
-                <img
-                  src={logo}
-                  alt="Upscale Bricks"
-                  className="h-12 w-auto object-contain"
-                />
-                <div className="text-left">
-                  <span className="font-heading text-xl font-semibold">Upscale Bricks</span>
-                  <span className="block text-xs text-background/60 -mt-1">Estates</span>
-                </div>
+                <span className="font-heading text-xl font-semibold whitespace-nowrap">
+                  Upscale Bricks Estates
+                </span>
               </button>
               <p className="text-background/70 text-sm mb-4">
-                Premium real estate advisory services in Bangalore. Building dreams, brick by
-                brick.
+               Building Dreams Brick by Brick
+Premium real estate advisory services in Bangalore. 
+
               </p>
             </div>
 
@@ -123,10 +114,10 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-gold shrink-0" />
                   <a
-                    href="mailto:info@upscale.com"
+                    href="mailto:info@upscalebricks.com"
                     className="text-background/70 hover:text-gold text-sm transition-colors"
                   >
-                    info@upscale.com
+                    info@upscalebricks.com
                   </a>
                 </li>
               </ul>
@@ -137,7 +128,7 @@ const Footer = () => {
               <h3 className="font-heading text-lg font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 {legalLinks.length === 0 ? (
-                  <li className="text-background/50 text-sm">Coming soon</li>
+                  <li className="text-background/50 text-sm">All our properties are RERA registered, BDA/BMRDA approved, and A-Khata compliant</li>
                 ) : (
                   legalLinks.map((link) => (
                     <li key={link.name}>

@@ -128,7 +128,7 @@ Premium real estate advisory services in Bangalore.
               <h3 className="font-heading text-lg font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 {legalLinks.length === 0 ? (
-                  <li className="text-background/50 text-sm">All our properties are RERA registered, BDA / BMRDA approved, and A-Khata compliant</li>
+                  <li className="text-background/50 text-sm">All our properties are RERA registered, BDA/BMRDA approved, and A-Khata compliant</li>
                 ) : (
                   legalLinks.map((link) => (
                     <li key={link.name}>
